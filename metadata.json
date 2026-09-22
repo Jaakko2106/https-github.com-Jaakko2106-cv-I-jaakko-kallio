@@ -1,0 +1,6 @@
+{
+  "name": "Copy of Jaakko CV",
+  "description": "An interactive curriculum vitae web application for a graphic designer, built with React and Tailwind CSS. It features smooth animations, an off-canvas menu, and a modal portfolio viewer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "SiteData": {
+      "title": "Site Data",
+      "description": "Key-value pair storing customized portfolio content, projects metadata, and media references.",
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "Serialized JSON string or raw text / URL for site content."
+        }
+      },
+      "required": ["value"]
+    }
+  },
+  "firestore": {
+    "/site_data/{key}": {
+      "schema": "SiteData",
+      "description": "Collection storing dynamic site data and customized portfolio projects."
+    }
+  }
+}
